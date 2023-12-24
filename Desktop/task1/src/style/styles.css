@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e9568c, #629ccb);
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 5px #690328;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 70px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 5px #690328;
+  text-align: center;
+  font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  padding: 0;
+}
+
+.task {
+  padding: 10px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  color: #de3372;
+  font-size: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #de3372;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.Edit {
+  margin-left: 5px;
+}
+
+.Add {
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #44a4f2;
+}
